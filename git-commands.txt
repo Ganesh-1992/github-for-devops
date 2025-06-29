@@ -14,3 +14,8 @@ git push origin master
 git clone https://github.com/Ganesh-1992/github-for-devops.git
 
 this is some new chages from GitHub
+
+git pull origin master
+
+************** BRANCHING STARTEGIES **************
+
