@@ -10,3 +10,5 @@ git remote add origin https://github.com/Ganesh-1992/github-for-devops-workshop.
 git remote -v
 git remote set-url origin https://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@github.com/Ganesh-1992/github-for-devops-workshop.git
 git push origin master
+
+git clone https://github.com/Ganesh-1992/github-for-devops.git
