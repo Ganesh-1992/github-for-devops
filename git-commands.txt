@@ -17,5 +17,14 @@ this is some new chages from GitHub
 
 git pull origin master
 
-************** BRANCHING STARTEGIES **************
+************** BRANCHING  **************
+
+git branch
+git branch dev
+git switch dev
+git log
+git log --oneline
+
+
+*********** Github HOOKS *******************
 
