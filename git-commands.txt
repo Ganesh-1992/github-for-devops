@@ -28,3 +28,15 @@ git log --oneline
 
 *********** Github HOOKS *******************
 
+<<ceate a pre-commit file in hooks and write a below code for check code quality
+
+files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
+flake8 $files
+
+python -m pip install flake8 
+
+if git grep -q "password\|secret_key\|API_KEY" $(git diff --cached --name-only); then
+
+echo "bhai ku apni job gawana chate ho"
+exit
+fi
